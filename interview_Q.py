@@ -1,5 +1,5 @@
 # 1. The CALL instruction doesn't allow you to pass any arguments. What are some ways to effectively get arguments to a subroutine?
-# 2. What's the result of bitwise-AND between `0b110` and `0b011`?
+# 2. What's the result of bitwise-AND between `0b110` AND `0b011`?
 # 3. Convert the 8-bit binary number 0bXXXXXXXX (PM's choice) to hex.
 
 '''Answer for Q #1'''

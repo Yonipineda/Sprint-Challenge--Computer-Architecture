@@ -161,8 +161,11 @@ class CPU:
             join(cur_dir, 'examples/keyboard.ls8'),
             join(cur_dir, 'examples/interrupts.ls8'),
         ]
+
+        SC = join(cur_dir, 'sctest.ls8')
+
         if filename:
-            with open(files) as f:
+            with open(SC) as f:
                 address = 0
                 for line in f:
                     line = line.split("#")[0].strip()
